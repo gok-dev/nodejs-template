@@ -1,0 +1,68 @@
+{
+  "name": "api-nodejs-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "engines": {
+    "node": "12.x"
+  },
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc --build tsconfig.json",
+    "start:dev": "ts-node-dev -r tsconfig-paths/register --respawn --ignore-watch node_modules --no-notify app/index.ts",
+    "test": "jest",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "knex:seed": "knex --knexfile knexfile.ts seed:run",
+    "knex:migrate": "knex migrate:latest --knexfile knexfile.ts migratte:latest"
+  },
+  "dependencies": {
+    "@types/config": "^0.0.37",
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "date-fns": "^2.16.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.21.12",
+    "pg": "^8.5.1",
+    "swagger-autogen": "^1.2.5",
+    "swagger-jsdoc": "^6.0.0-rc.3",
+    "swagger-ui-express": "^4.1.5"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.8",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.9",
+    "@types/jsonwebtoken": "^8.5.0",
+    "@types/knex": "^0.16.1",
+    "@types/node": "^14.14.10",
+    "@types/swagger-ui-express": "^4.1.2",
+    "@typescript-eslint/eslint-plugin": "^4.9.0",
+    "@typescript-eslint/parser": "^4.9.0",
+    "eslint": "7.13.0",
+    "git-commit-msg-linter": "^3.0.0",
+    "husky": "^4.3.0",
+    "jest": "^26.6.3",
+    "jest-cli": "^26.6.3",
+    "lint-staged": "^10.5.2",
+    "nodemon": "^2.0.6",
+    "prettier": "2.2.0",
+    "ts-node": "^9.0.0",
+    "ts-node-dev": "^1.0.0",
+    "tsconfig-paths": "^3.9.0",
+    "typescript": "^4.1.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": "eslint --cache --fix",
+    "*.{js,jsx,ts,tsx}": [
+      "eslint --fix",
+      "prettier --write ."
+    ]
+  }
+}
