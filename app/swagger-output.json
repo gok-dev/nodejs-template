@@ -1,0 +1,17 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0.0",
+    "title": "Gok Template NodeJS Api",
+    "description": ""
+  },
+  "host": "localhost:3000",
+  "basePath": "/",
+  "tags": [],
+  "schemes": ["http"],
+  "securityDefinitions": {},
+  "consumes": [],
+  "produces": [],
+  "paths": {},
+  "definitions": {}
+}
