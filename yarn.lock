@@ -5801,10 +5801,10 @@ swagger-autogen@^1.2.5:
   dependencies:
     figures "^3.2.0"
 
-swagger-jsdoc@^6.0.0-rc.3:
-  version "6.0.0-rc.3"
-  resolved "https://registry.yarnpkg.com/swagger-jsdoc/-/swagger-jsdoc-6.0.0-rc.3.tgz#e5fdce21f1c779c4b2a900f041ec2211f70de5ab"
-  integrity sha512-hCcGVw9VW5xaxTY2LRpmKti/Kk59hHbepO5Nl1UlA/yPw5A8mWScaMJOJeC5Xu1dnj30LCI7iV8ie1YMFhu77Q==
+swagger-jsdoc@^6.0.1:
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/swagger-jsdoc/-/swagger-jsdoc-6.0.1.tgz#7b5df9b7d4f28e844d879f437dd045efa4d037fd"
+  integrity sha512-Rpyq3aMR3wlLie9syaLRwF7WmWHNvSXRBzqn4P45rdJ1tXGIxFBeKRQG/Y/1YmBh3BmK6ds29CMavzDLWqRlpw==
   dependencies:
     commander "6.2.0"
     doctrine "3.0.0"
