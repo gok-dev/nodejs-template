@@ -16,7 +16,7 @@
     "knex:migrate": "knex migrate:latest --knexfile knexfile.ts migratte:latest"
   },
   "dependencies": {
-    "@types/config": "^0.0.37",
+    "@types/config": "^0.0.38",
     "bcrypt": "^5.0.0",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
