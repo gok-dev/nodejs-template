@@ -706,10 +706,10 @@
   resolved "https://registry.yarnpkg.com/@types/mime/-/mime-2.0.3.tgz#c893b73721db73699943bfc3653b1deb7faa4a3a"
   integrity sha512-Jus9s4CDbqwocc5pOAnh8ShfrnMcPHuJYzVcSUU7lrh8Ni5HuIqX3oilL86p3dlTrk0LzHRCgA/GQ7uNCw6l2Q==
 
-"@types/node@*", "@types/node@^14.14.10":
-  version "14.14.10"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.10.tgz#5958a82e41863cfc71f2307b3748e3491ba03785"
-  integrity sha512-J32dgx2hw8vXrSbu4ZlVhn1Nm3GbeCFNw2FWL8S5QKucHGY0cyNwjdQdO+KMBZ4wpmC7KhLCiNsdk1RFRIYUQQ==
+"@types/node@*", "@types/node@^14.14.20":
+  version "14.14.20"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.20.tgz#f7974863edd21d1f8a494a73e8e2b3658615c340"
+  integrity sha512-Y93R97Ouif9JEOWPIUyU+eyIdyRqQR0I8Ez1dzku4hDx34NWh4HbtIc3WNzwB1Y9ULvNGeu5B8h8bVL5cAk4/A==
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.0"
@@ -779,28 +779,28 @@
   dependencies:
     "@types/yargs-parser" "*"
 
-"@typescript-eslint/eslint-plugin@^4.9.0":
-  version "4.9.0"
-  resolved "https://registry.yarnpkg.com/@typescript-eslint/eslint-plugin/-/eslint-plugin-4.9.0.tgz#8fde15743413661fdc086c9f1f5d74a80b856113"
-  integrity sha512-WrVzGMzzCrgrpnQMQm4Tnf+dk+wdl/YbgIgd5hKGa2P+lnJ2MON+nQnbwgbxtN9QDLi8HO+JAq0/krMnjQK6Cw==
+"@typescript-eslint/eslint-plugin@^4.12.0":
+  version "4.12.0"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/eslint-plugin/-/eslint-plugin-4.12.0.tgz#00d1b23b40b58031e6d7c04a5bc6c1a30a2e834a"
+  integrity sha512-wHKj6q8s70sO5i39H2g1gtpCXCvjVszzj6FFygneNFyIAxRvNSVz9GML7XpqrB9t7hNutXw+MHnLN/Ih6uyB8Q==
   dependencies:
-    "@typescript-eslint/experimental-utils" "4.9.0"
-    "@typescript-eslint/scope-manager" "4.9.0"
+    "@typescript-eslint/experimental-utils" "4.12.0"
+    "@typescript-eslint/scope-manager" "4.12.0"
     debug "^4.1.1"
     functional-red-black-tree "^1.0.1"
     regexpp "^3.0.0"
     semver "^7.3.2"
     tsutils "^3.17.1"
 
-"@typescript-eslint/experimental-utils@4.9.0":
-  version "4.9.0"
-  resolved "https://registry.yarnpkg.com/@typescript-eslint/experimental-utils/-/experimental-utils-4.9.0.tgz#23a296b85d243afba24e75a43fd55aceda5141f0"
-  integrity sha512-0p8GnDWB3R2oGhmRXlEnCvYOtaBCijtA5uBfH5GxQKsukdSQyI4opC4NGTUb88CagsoNQ4rb/hId2JuMbzWKFQ==
+"@typescript-eslint/experimental-utils@4.12.0":
+  version "4.12.0"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/experimental-utils/-/experimental-utils-4.12.0.tgz#372838e76db76c9a56959217b768a19f7129546b"
+  integrity sha512-MpXZXUAvHt99c9ScXijx7i061o5HEjXltO+sbYfZAAHxv3XankQkPaNi5myy0Yh0Tyea3Hdq1pi7Vsh0GJb0fA==
   dependencies:
     "@types/json-schema" "^7.0.3"
-    "@typescript-eslint/scope-manager" "4.9.0"
-    "@typescript-eslint/types" "4.9.0"
-    "@typescript-eslint/typescript-estree" "4.9.0"
+    "@typescript-eslint/scope-manager" "4.12.0"
+    "@typescript-eslint/types" "4.12.0"
+    "@typescript-eslint/typescript-estree" "4.12.0"
     eslint-scope "^5.0.0"
     eslint-utils "^2.0.0"
 
@@ -3923,10 +3923,10 @@ lines-and-columns@^1.1.6:
   resolved "https://registry.yarnpkg.com/lines-and-columns/-/lines-and-columns-1.1.6.tgz#1c00c743b433cd0a4e80758f7b64a57440d9ff00"
   integrity sha1-HADHQ7QzzQpOgHWPe2SldEDZ/wA=
 
-lint-staged@^10.5.2:
-  version "10.5.2"
-  resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-10.5.2.tgz#acfaa0093af3262aee3130b2e22438941530bdd1"
-  integrity sha512-e8AYR1TDlzwB8VVd38Xu2lXDZf6BcshVqKVuBQThDJRaJLobqKnpbm4dkwJ2puypQNbLr9KF/9mfA649mAGvjA==
+lint-staged@^10.5.3:
+  version "10.5.3"
+  resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-10.5.3.tgz#c682838b3eadd4c864d1022da05daa0912fb1da5"
+  integrity sha512-TanwFfuqUBLufxCc3RUtFEkFraSPNR3WzWcGF39R3f2J7S9+iF9W0KTVLfSy09lYGmZS5NDCxjNvhGMSJyFCWg==
   dependencies:
     chalk "^4.1.0"
     cli-truncate "^2.1.0"
@@ -4914,10 +4914,10 @@ prettier-linter-helpers@^1.0.0:
   dependencies:
     fast-diff "^1.1.2"
 
-prettier@2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.2.0.tgz#8a03c7777883b29b37fb2c4348c66a78e980418b"
-  integrity sha512-yYerpkvseM4iKD/BXLYUkQV5aKt4tQPqaGW6EsZjzyu0r7sVZZNPJW4Y8MyKmicp6t42XUPcBVA+H6sB3gqndw==
+prettier@2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.2.1.tgz#795a1a78dd52f073da0cd42b21f9c91381923ff5"
+  integrity sha512-PqyhM2yCjg/oKkFPtTGUojv7gnZAoG80ttl45O6x2Ug/rMJw4wcc9k6aaf2hibP7BGVCCM33gZoGjyvt9mm16Q==
 
 pretty-format@^26.6.2:
   version "26.6.2"
@@ -5836,10 +5836,10 @@ swagger-autogen@^1.2.5:
   dependencies:
     figures "^3.2.0"
 
-swagger-jsdoc@^6.0.0-rc.3:
-  version "6.0.0-rc.3"
-  resolved "https://registry.yarnpkg.com/swagger-jsdoc/-/swagger-jsdoc-6.0.0-rc.3.tgz#e5fdce21f1c779c4b2a900f041ec2211f70de5ab"
-  integrity sha512-hCcGVw9VW5xaxTY2LRpmKti/Kk59hHbepO5Nl1UlA/yPw5A8mWScaMJOJeC5Xu1dnj30LCI7iV8ie1YMFhu77Q==
+swagger-jsdoc@^6.0.1:
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/swagger-jsdoc/-/swagger-jsdoc-6.0.1.tgz#7b5df9b7d4f28e844d879f437dd045efa4d037fd"
+  integrity sha512-Rpyq3aMR3wlLie9syaLRwF7WmWHNvSXRBzqn4P45rdJ1tXGIxFBeKRQG/Y/1YmBh3BmK6ds29CMavzDLWqRlpw==
   dependencies:
     commander "6.2.0"
     doctrine "3.0.0"
