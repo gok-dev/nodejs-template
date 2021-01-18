@@ -24,7 +24,7 @@
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1",
-    "knex": "^0.21.12",
+    "knex": "^0.21.16",
     "pg": "^8.5.1",
     "swagger-autogen": "^1.2.5",
     "swagger-jsdoc": "^6.0.1",
