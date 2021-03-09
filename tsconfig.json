@@ -19,10 +19,14 @@
     "allowSyntheticDefaultImports": true,
     "paths": {
       "@controllers/*": ["./app/api/controllers/*"],
+      "@services/*": ["./app/api/services/*"],
+      "@repositories/*": ["./app/api/repositories/*"],
       "@models/*": ["./app/api/models/*"],
       "@routes/*": ["./app/api/routes/*"],
+      "@utils/*": [
+        "./app/api/utils/*"
+      ],
       "@config/*": ["./app/config/*"],
-      "@utils/*": ["./app/utils/*"],
       "@database/*": ["./app/database/*"]
     }
   },
