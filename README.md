@@ -1,8 +1,7 @@
 <!-- PROJECT SHIELDS -->
 
-[![GitHub issues](https://img.shields.io/github/issues-raw/gok-dev/react-native-template-gok-typescript.svg)](https://github.com/gok-dev/react-native-template-gok-typescript/issues)
-[![GitHub last commit](https://img.shields.io/github/last-commit/gok-dev/react-native-template-gok-typescript.svg)](https://github.com/gok-dev/react-native-template-gok-typescript/commits/master)
-[![NPM](https://img.shields.io/npm/l/react-native-template-gok-typescript.svg)](https://choosealicense.com/licenses/mit)
+[![GitHub issues](https://img.shields.io/github/issues-raw/gok-dev/nodejs-template.svg)](https://github.com/gok-dev/nodejs-template/issues)
+[![GitHub last commit](https://img.shields.io/github/last-commit/gok-dev/nodejs-template.svg)](https://github.com/gok-dev/nodejs-template/commits/main)
 
 <!-- PROJECT LOGO -->
 <br />
