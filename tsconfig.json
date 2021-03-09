@@ -23,9 +23,7 @@
       "@repositories/*": ["./app/api/repositories/*"],
       "@models/*": ["./app/api/models/*"],
       "@routes/*": ["./app/api/routes/*"],
-      "@utils/*": [
-        "./app/api/utils/*"
-      ],
+      "@utils/*": ["./app/api/utils/*"],
       "@config/*": ["./app/config/*"],
       "@database/*": ["./app/database/*"]
     }
